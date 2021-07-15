@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d517b959d6ba8cb705bf91f6b613df81",
+    "content-hash": "3a78953f6902255253ac4bc3714d25af",
     "packages": [
         {
             "name": "composer/installers",
@@ -155,6 +155,21 @@
                 }
             ],
             "time": "2021-04-28T06:42:17+00:00"
+        },
+        {
+            "name": "fullcalendar/fullcalendar",
+            "version": "3.2.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/fullcalendar/fullcalendar/releases/download/v3.2.0/fullcalendar-3.2.0.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "drupal-library",
+            "extra": {
+                "installer-name": "fullcalendar"
+            }
         }
     ],
     "packages-dev": [],
