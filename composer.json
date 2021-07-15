@@ -1,0 +1,36 @@
+{
+    "name": "ehlovader/fullcalendar-test-case",
+    "type": "project",
+    "repositories": {
+        "fullcalendar": {
+            "_webform": true,
+            "type": "package",
+            "package": {
+                "name": "fullcalendar/fullcalendar",
+                "version": "4.4.3",
+                "type": "drupal-library",
+                "extra": {
+                    "installer-name": "fullcalendar"
+                },
+                "dist": {
+                    "url": "https://github.com/fullcalendar/fullcalendar/releases/download/v4.4.3/fullcalendar-4.4.3.zip",
+                    "type": "zip"
+                },
+                "require": {
+                    "composer/installers": "~1.0"
+                }
+            }
+        }
+    },
+    "extra": {
+        "installer-paths": {
+            "web/libraries/{$name}": [
+                "type:drupal-library"
+            ]
+        }
+    },
+    "require": {
+        "composer/installers": "^1.11"
+    }
+
+}
